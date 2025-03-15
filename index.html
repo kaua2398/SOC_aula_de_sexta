@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <main>
+        </main>
+        <h1>SOC Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#reports">Relatórios</a></li>
+                <li><a href="#communications">Comunicações</a></li>
+                <li><a href="#monitoring">Monitoramento</a></li>
+                <li><a href="teste.html">Criar Relatório</a></li>
+                <li><a href="usuarios.html">Integrantes</a></li>
+                <li><a href="Linha_do_tempo.html">Linha do tempo</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao SOC Dashboard</h2>
+            <p>Central de informações e monitoramento de segurança.</p>
+            <button onclick="loadDashboard()">Carregar Painel</button>
+        </section>
+        
+        <section id="reports">
+            <h2>Relatórios</h2>
+            <p>Acesse e analise os relatórios de segurança mais recentes.</p>
+            <div id="reports-list">
+                <!-- Lista dinâmica de relatórios será carregada aqui -->
+            </div>
+            <a href="teste.html"><button>Faça seu relatório</button></a>
+        </section>
+        
+        <section id="communications">
+            <h2>Comunicações</h2>
+            <p>Fique atualizado com as últimas notificações e alertas.</p>
+            <div id="notifications">
+                <!-- Notificações dinâmicas serão exibidas aqui -->
+            </div>
+        </section>
+        
+        <section id="monitoring">
+            <h2>Monitoramento</h2>
+            <p>Acompanhe a segurança dos sistemas em tempo real.</p>
+            <div id="monitoring-data">
+                <!-- Informações de monitoramento serão carregadas aqui -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 SOC Dashboard. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
