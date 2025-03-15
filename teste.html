@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Relatório - SOC Dashboard</title>
+    <link rel="stylesheet" href="styless.css">
+    <script defer src="report.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Criar Relatório</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Voltar ao Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Preencha os detalhes do relatório</h2>
+            <form id="reportForm">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="description">Descrição:</label>
+                <textarea id="description" name="description" required></textarea>
+                
+                <label id="date" for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <button type="submit">Salvar Relatório</button>
+            </form>
+            <div id="confirmationMessage" style="display:none;">Relatório salvo com sucesso!</div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 SOC Dashboard. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
